@@ -1,7 +1,7 @@
 {
-  "name": "sinbot",
+  "name": "ashbot",
   "version": "1.0.0",
-  "description": "Discord bot for The Eighth Sin guild on Draenor EU",
+  "description": "Discord bot",
   "main": "index.js",
   "scripts": {
     "start": "ts-node-dev src/main.ts",
