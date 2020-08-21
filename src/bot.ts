@@ -5,7 +5,7 @@ import { Client, Discord, CommandMessage, CommandNotFound, Command, Description 
 @Discord('!', {
   import: [Path.join(__dirname, 'modules', '*.ts')],
 })
-abstract class SinBot {
+abstract class AshBot {
   // !help command lists out all available commands
   @Command('help')
   @Description('List all available commands')
