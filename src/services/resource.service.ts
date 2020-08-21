@@ -14,10 +14,6 @@ export const getCorruptionBatches = async () => {
   return apiGet('corruptionbatches.json');
 };
 
-export const getReminders = async () => {
-  return apiGet('reminders.json');
-};
-
 export const getLinks = async () => {
   return apiGet('links.json');
 };

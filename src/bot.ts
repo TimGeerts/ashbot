@@ -13,7 +13,7 @@ abstract class SinBot {
     const cmds = Client.getCommands();
     const embed = new DiscordJS.MessageEmbed()
       .setColor('#0099ff')
-      .setTitle('Welcome to SinBot')
+      .setTitle('Welcome to AshBot')
       .setDescription('The following commands are available: ');
     cmds
       .filter((c) => c.commandName !== 'help')
